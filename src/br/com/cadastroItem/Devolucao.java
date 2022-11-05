@@ -213,6 +213,7 @@ public void close(){
     private void voltarMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltarMenuActionPerformed
         close();
         Menu menu = new Menu();
+        menu.setLocationRelativeTo(null);
         menu.setVisible(true);
     }//GEN-LAST:event_voltarMenuActionPerformed
 

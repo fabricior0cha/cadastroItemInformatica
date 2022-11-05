@@ -165,18 +165,21 @@ public class Menu extends javax.swing.JFrame {
     private void devolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_devolverActionPerformed
         close();
         Devolucao devolucao = new Devolucao();
+        devolucao.setLocationRelativeTo(null);
         devolucao.setVisible(true);
     }//GEN-LAST:event_devolverActionPerformed
 
     private void editarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editarActionPerformed
         close();
         Editar editar = new Editar();
+        editar.setLocationRelativeTo(null);
         editar.setVisible(true);
     }//GEN-LAST:event_editarActionPerformed
 
     private void visualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_visualizarActionPerformed
         close();
         Consulta consulta = new Consulta();
+        consulta.setLocationRelativeTo(null);
         consulta.setVisible(true);
     }//GEN-LAST:event_visualizarActionPerformed
 
