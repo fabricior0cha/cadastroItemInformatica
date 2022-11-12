@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/Application.java to edit this template
  */
-package br.com.cadastroItem;
+package br.com.cadastroItem.views;
 
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
@@ -184,10 +184,10 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_visualizarActionPerformed
 
     private void cadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarActionPerformed
-        close();
-        Cadastro cadastro = new Cadastro();
-        cadastro.setLocationRelativeTo(null);
-        cadastro.setVisible(true);
+//        close();
+//        Cadastro cadastro = new Cadastro();
+//        cadastro.setLocationRelativeTo(null);
+//        cadastro.setVisible(true);
         
     }//GEN-LAST:event_cadastrarActionPerformed
 

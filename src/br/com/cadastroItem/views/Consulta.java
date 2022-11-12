@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/Application.java to edit this template
  */
-package br.com.cadastroItem;
+package br.com.cadastroItem.views;
 
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
